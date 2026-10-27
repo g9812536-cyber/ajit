@@ -1,0 +1,17 @@
+{
+  "name": "ajit-chat",
+  "version": "2.0.0",
+  "description": "친구들과 쓰는 채팅 + 음성채널 + 친구 + 서버 만들기 사이트",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "socket.io": "^4.8.1"
+  }
+}
